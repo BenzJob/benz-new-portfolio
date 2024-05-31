@@ -15,7 +15,7 @@ const HeroSection = () => {
                             sequence={[
                             // Same substring at the start will only be typed out once, initially
                             'Ayoub',
-                            1000, // wait 1s before replacing "Mice" with "Hamsters"
+                            1000, // wait 1s before replacing "Ayoub" with "Web Developer"
                             'Web Developer',
                             1000,
                             'Mobile developer',
@@ -50,7 +50,6 @@ const HeroSection = () => {
                     </div>
                 </div>
             </div>
-         
         </section>
     );
 };
